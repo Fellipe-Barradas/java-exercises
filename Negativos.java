@@ -3,12 +3,10 @@ package vetores;
 
 import java.util.Scanner;
 import java.util.Locale;
-
 public class Negativos {
 
 	public static void main(String[] args) {
-		Locale.setDefault(Locale.US);
-		
+		Locale.setDefault(Locale.US);	
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Quantos numeros você vai digitar? ");
@@ -37,7 +35,7 @@ public class Negativos {
 		System.out.println("NUMEROS NEGATIVOS: ");
 		for(int i = 0; i < vector.length; i++) {
 			if(vector[i] < 0) {
-				System.out.print(vector[i]);
+				System.out.println(vector[i]);
 			}
 		}
 	}
